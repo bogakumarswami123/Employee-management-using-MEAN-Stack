@@ -4,7 +4,7 @@
 
 operating system windows8.1
 
-##In front_employee-management folder we have install node modules
+##In front_employee-management folder we have to install node modules
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.3.
 
@@ -35,7 +35,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 
-##In backend_employee-management folder we have install node modules and express.js
+##In backend_employee-management folder we have to install node modules and express.js
 
 command to install a express.js in your system globally
 
