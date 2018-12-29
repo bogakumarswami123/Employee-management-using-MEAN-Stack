@@ -6,6 +6,10 @@ operating system windows8.1
 
 ##In front_employee-management folder we have to install node modules
 
+//navigate to a project directory
+
+cd front_employee-management
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.3.
 
 ## Development server
