@@ -14,9 +14,7 @@ npm install
 
 ng serve
 
-run on browser chrome/firefox
-
-localhost://4200
+// Now open your browser and visit: localhost:4200
 
 In backend_employee-management folder we have install node modules
 
@@ -28,9 +26,7 @@ npm install
 
 npm start
 
-run on browser chrome/firefox
-
-localhost://3000
+// Now open your browser and visit: localhost:3000
 
 
 in mongodb_employee-management folder we have to restore a database 
