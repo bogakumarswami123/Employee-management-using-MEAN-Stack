@@ -10,6 +10,10 @@ operating system windows8.1
 
 cd front_employee-management
 
+// command to install node modules
+
+npm install
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.3.
 
 ## Development server
