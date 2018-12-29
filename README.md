@@ -35,9 +35,17 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 
-##In backend_employee-management folder we have install node modules
+##In backend_employee-management folder we have install node modules and express.js
 
-//command
+command to install a express.js in your system globally
+
+npm install express -g
+
+//navigate to a project directory
+
+cd backend_employee-management
+
+//command for node modules
 
 npm install
 
@@ -48,6 +56,6 @@ npm start
 // Now open your browser and visit: localhost:3000
 
 
-##in mongodb_employee-management folder we have to restore a database 
+##in mongodb_employee-management folder we have to restore a database
 
 
