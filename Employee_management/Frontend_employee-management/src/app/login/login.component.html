@@ -1,0 +1,27 @@
+<form [formGroup]="loginForm" (ngSubmit)="onSubmit(loginForm.value)">
+  <div id="msg" *ngIf="res" class="alert alert-{{res.class}}">
+    {{res.message}} {{res.err}}
+  </div>
+  <div class="form-group">
+    <label for="email">Email</label>
+    <input type="email" id="email" class="form-control" name="email" placeholder="johnny@gmail.com" [formControl]="loginForm.controls.email"
+      [ngClass]="{ 'is-invalid': submitted && loginForm.controls.email.errors }">
+    <div *ngIf="submitted && loginForm.controls.email.errors" class="invalid-feedback">
+      <div *ngIf="loginForm.controls.email.errors.required">Email is required</div>
+    </div>
+  </div>
+  <div class='form-group'>
+    <label for="name">Password</label>
+    <input type="password" id="pwd" placeholder="*************" class="form-control" [ngClass]="{ 'is-invalid': submitted && loginForm.controls.password.errors }"
+      [formControl]="loginForm.controls.password" name="password">
+    <div *ngIf="submitted && loginForm.controls.password.errors" class="invalid-feedback">
+      <div *ngIf="loginForm.controls.password.errors.required">Password is required</div>
+      <div *ngIf="loginForm.controls.password.errors.minLength">Password must be at least 6 characters</div>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <button class="form-control btn btn-primary btn-send" type="submit">Submit</button>
+  </div>
+  <div><a routerLink="/registration">Click here for Registration</a></div>
+</form>

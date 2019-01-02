@@ -1,0 +1,31 @@
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Emp Id</th>
+      <th>Firstname</th>
+      <th>Lastname</th>
+      <th>Address</th>
+      <th>Dob</th>
+      <th>Gender</th>
+      <th>Mobile No</th>
+      <th>city</th>
+      <td>
+        <button type="button" routerLink="/home" class="btn btn-primary">
+          <i class="fa fa-home" aria-hidden="true"></i>
+        </button>
+      </td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngIf="res">
+      <td>{{res['empid']}}</td>
+      <td>{{res['empfirstname'] }}</td>
+      <td>{{res['emplastname']}}</td>
+      <td>{{res['empaddress']}}</td>
+      <td>{{res['empdob']}}</td>
+      <td>{{res['empgender']}}</td>
+      <td>{{res['empmobile']}}</td>
+      <td>{{res['empcity']}}</td>
+    </tr>
+  </tbody>
+</table>
