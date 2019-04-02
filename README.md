@@ -2,13 +2,8 @@
 
 
 
-operating system windows8.1
-
 ##In frontend_employee-management folder we have to install node modules
 
-//navigate to a project directory
-
-cd frontend_employee-management
 
 // command to install node modules
 
